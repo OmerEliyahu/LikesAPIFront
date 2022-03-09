@@ -1,0 +1,65 @@
+
+.buttons button {
+    border-radius: 50%;
+    border: none;
+    margin: 0 2rem;
+    box-shadow: 0 4px 32px 0 rgba(10,14,29,.02), 0 8px 64px 0 rgba(10,14,29,.08);
+    cursor: pointer;
+}
+.likes_img {
+    width: 100%;
+    height: 100%;
+}
+
+.like_button{
+    width: 30px;
+    height: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img_with_likes {
+    display: flex;
+    border: solid;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 5px;
+    max-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.counts {
+    display: flex;
+}
+
+img{
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.download_contianer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download_button{
+    width: 70px;
+    height: 100%;
+}
+
+.download_img{
+    width: 100%;
+}
+
+.download_button{
+    border-radius: 50%;
+    border: none;
+    margin: 0 2rem;
+    box-shadow: 0 4px 32px 0 rgba(10,14,29,.02), 0 8px 64px 0 rgba(10,14,29,.08);
+    cursor: pointer;
+}
